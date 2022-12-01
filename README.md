@@ -13,6 +13,11 @@ https://adventofcode.com/
 
 ---
 
+### Regras da AoC
+
+_Você pode usar a linguagem de programação que você quizer. Você pode resolver o problema do dia do jeito que você quizer_
+_Eu utilizei javaSxript + NodeJs_
+
 ## ☕ PUZZLES RESOLVIDOS
 
 DAY 1 Clique [AQUI](https://github.com/diego-maker/AoC-puzzle/blob/main/src/index.js).<br>
