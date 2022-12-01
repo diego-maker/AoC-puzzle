@@ -22,4 +22,4 @@ _Eu utilizei javaScript + NodeJs_
 
 DAY 1 Clique [AQUI](https://github.com/diego-maker/AoC-puzzle/blob/main/src/index.js).<br>
 
-No day1 utilizei a lib <p align="right">(<a href="https://www.npmjs.com/package/fs-js">FS</a>)</p> para ler o arquivo com os dados fixos e manipular eles dentro do meu código.
+No day1 utilizei a li<a href="https://www.npmjs.com/package/fs-js">FS</a> para ler o arquivo com os dados fixos e manipular eles dentro do meu código.
