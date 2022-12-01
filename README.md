@@ -7,7 +7,7 @@
 
 ## Eric Wastl e o time do AoC lançam uma série de desafios técnicos, de vários níveis de complexidade
 
-[![adventofcode](https://adventofcode.com/)
+[![adventofcode](https://adventofcode.com/)]
 
 ---
 
