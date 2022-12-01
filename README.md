@@ -8,7 +8,7 @@ Resolvendo os puzzles do Eric Wastl
 
 ## Eric Wastl e o time do AoC lançam uma série de desafios técnicos, de vários níveis de complexidade
 
-[![advent of code](https://adventofcode.com/)
+[![adventofcode](https://adventofcode.com/)
 
 ---
 
