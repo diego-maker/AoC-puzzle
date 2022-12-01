@@ -1,5 +1,4 @@
 # AoC-puzzle
-Resolvendo os puzzles do Eric Wastl
 
 
 <h1 align="center">
