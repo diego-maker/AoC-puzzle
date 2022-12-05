@@ -15,11 +15,17 @@ https://adventofcode.com/
 
 ### Regras da AoC
 
-_Você pode usar a linguagem de programação que você quizer. Você pode resolver o problema do dia do jeito que você quizer_
+_Você pode usar a linguagem de programação que você quizer. 
+Você pode resolver o problema do dia do jeito que você quizer :)_
 _Eu utilizei javaScript + NodeJs_
 
 ## ☕ PUZZLES RESOLVIDOS
 
 DAY 1 Clique [AQUI](https://github.com/diego-maker/AoC-puzzle/blob/main/src/index.js).<br>
+DAY 2 part1. Clique [AQUI](https://github.com/diego-maker/AoC-puzzle/blob/main/src/day2_part1.js).<br>
+DAY 2 part2. Clique [AQUI](https://github.com/diego-maker/AoC-puzzle/blob/main/src/day2_part2.js).<br>
+DAY 3 part1. Clique [AQUI](https://github.com/diego-maker/AoC-puzzle/blob/main/src/day3_part1.js).<br>
 
-No day1 utilizei a lib <a href="https://www.npmjs.com/package/fs-js">FS</a> para ler o arquivo com os dados fixos e manipular eles dentro do meu código.
+
+
+utilizei a lib <a href="https://www.npmjs.com/package/fs-js">FS</a> para ler o arquivo com os dados fixos e manipular eles dentro do meu código.
