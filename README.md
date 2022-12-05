@@ -15,7 +15,8 @@ https://adventofcode.com/
 
 ### Regras da AoC
 
-_Você pode usar a linguagem de programação que você quizer. Você pode resolver o problema do dia do jeito que você quizer_
+_Você pode usar a linguagem de programação que você quizer. 
+Você pode resolver o problema do dia do jeito que você quizer :)_
 _Eu utilizei javaScript + NodeJs_
 
 ## ☕ PUZZLES RESOLVIDOS
