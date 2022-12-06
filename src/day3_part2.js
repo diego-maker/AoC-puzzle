@@ -6,6 +6,8 @@ fs.readFile('./src/file/day3.txt','utf8', function(err,data){
 	var execute = true;
 	var count = 0;
 	var agroup = [];
+	var FINALSUM = 0;
+
 	let rows = [JSON.stringify(data)]; 
 	rows.map(x=>{
 
@@ -44,8 +46,18 @@ fs.readFile('./src/file/day3.txt','utf8', function(err,data){
 				initMap[2] = initMap[1] + 1;
 		}	 
 
-		getLetter(agroup);
-	});
+	let newAgroup =	getLetter(agroup); // letra duplicada nas tres linhas vai retornar na posição [0] de cada indice de array
+	
+	for (let ind = 0; ind < newAgroup.length; ind++) {
+		
+		
+		let numberPriority = getPriority(newAgroup[ind][0])
+		FINALSUM +=  numberPriority;
+
+		
+	}
+	console.log(FINALSUM)
+});
 
 });
 
@@ -55,14 +67,49 @@ function getLetter(agroup){
 	
 
 	for (let index = 0; index < agroup.length; index++) {
-		let backs= agroup[index].length
-
-		for (let ind = 0; ind < backs; ind++) {
-
 		
-			console.log(`${col1}- ${col2}`);
+		
+		for (let ind3 = 1; ind3 < agroup[index].length; ind3++) {
 			
-		}
+			let count = 1 ;
+			for (let index2 = 0; index2 < agroup[index][0].length; index2++, count++) {
+				
+				let searchLetter = agroup[index][0].substring(index2,count)
+
+				let bag1 = agroup[index][ind3].indexOf(searchLetter);
+				let ind4 = ind3 + 1 ;
+				if(agroup[index][ind4] != undefined){
+					var bag2 = agroup[index][ind4].indexOf(searchLetter);
+
+				}
+				
+				if(bag1 != -1 && bag2 != -1){
+					
+					agroup[index][0] = searchLetter
 		
+
+				}
+				
+			}
+
+		}
+	
 	}
+
+
+	return agroup
 }
+
+
+function getPriority(letter){
+
+	let order = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	 let count2 = 1 ;
+	for (let index = 0; index < order.length; index++, count2++) {
+	 let letterOrder = order.substring(index, count2)
+	 
+	 if(letter === letterOrder){
+		 return count2;
+	 }
+	}
+ }
