@@ -7,7 +7,7 @@
 
 ## Eric Wastl e o time do AoC lançam uma série de desafios técnicos, de vários níveis de complexidade
 
-do dia 1 até o dia 25 de dezembro. Você pode acessar o Advent of Code pelo link:
+do dia 1 até o dia 25 de dezembro :santa:. Você pode acessar o Advent of Code pelo link:
 
 https://adventofcode.com/
 
@@ -31,4 +31,5 @@ DAY 4 part 1 and 2 . Clique [AQUI](https://github.com/diego-maker/AoC-puzzle/blo
 
 utilizei a lib <a href="https://www.npmjs.com/package/fs-js">FS</a> para ler o arquivo com os dados fixos e manipular eles dentro do meu código.
 
-## | [top](#travel--places) | :building_construction: | PUZZLES EM ANDAMENTO
+## :building_construction: | PUZZLES EM ANDAMENTO
+DAY 5. Clique [AQUI](https://github.com/diego-maker/AoC-puzzle/blob/main/src/day5.js).<br>
