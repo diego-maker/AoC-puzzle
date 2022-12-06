@@ -25,6 +25,7 @@ DAY 1 Clique [AQUI](https://github.com/diego-maker/AoC-puzzle/blob/main/src/inde
 DAY 2 part1. Clique [AQUI](https://github.com/diego-maker/AoC-puzzle/blob/main/src/day2_part1.js).<br>
 DAY 2 part2. Clique [AQUI](https://github.com/diego-maker/AoC-puzzle/blob/main/src/day2_part2.js).<br>
 DAY 3 part1. Clique [AQUI](https://github.com/diego-maker/AoC-puzzle/blob/main/src/day3_part1.js).<br>
+DAY 3 part. Clique [AQUI](https://github.com/diego-maker/AoC-puzzle/blob/main/src/day3_part2.js).<br>
 
 
 
