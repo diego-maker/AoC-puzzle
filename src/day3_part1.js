@@ -33,7 +33,7 @@ fs.readFile('./src/file/day3.txt','utf8', function(err,data){
 					
 				 let numberPriority	= getPriority(finalLetter);
 				
-					FINALSUM +=  numberPriority;
+					FINALSUM +=  numberPriority;  //somando o numero da prioridade total
 					
 					break;
 
@@ -48,7 +48,7 @@ fs.readFile('./src/file/day3.txt','utf8', function(err,data){
 });
 
 
-function getLetter(count2, col2, letter1){
+function getLetter(count2, col2, letter1){ //buscando a letra de cada string
 	for (let index2 = 0; index2 < col2.length; index2++, count2++) {
 					
 		let letter2 = col2.substring(index2, count2)
@@ -61,7 +61,7 @@ function getLetter(count2, col2, letter1){
 
 
 
-function getPriority(letter){
+function getPriority(letter){ // filtrando o numero da prioridade da letra
 
  let order = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	let count2 = 1 ;

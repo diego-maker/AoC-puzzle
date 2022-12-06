@@ -40,9 +40,9 @@ fs.readFile('./src/file/day3.txt','utf8', function(err,data){
 				}
 			}
 			
-			count = count + 1;
+				count = count + 1;
 				initMap[0] = last + 1;
-				initMap[1] = initMap[0] + 1;
+				initMap[1] = initMap[0] + 1;		//agrupando 3 linhas por indice de array
 				initMap[2] = initMap[1] + 1;
 		}	 
 
@@ -62,10 +62,7 @@ fs.readFile('./src/file/day3.txt','utf8', function(err,data){
 });
 
 
-function getLetter(agroup){
-
-	
-
+function getLetter(agroup){ ;// filtrando a letra que se repete em 3 em 3 linhas seguidas
 	for (let index = 0; index < agroup.length; index++) {
 		
 		
@@ -96,12 +93,11 @@ function getLetter(agroup){
 	
 	}
 
-
 	return agroup
 }
 
 
-function getPriority(letter){
+function getPriority(letter){ //filtarndo  o numeor da prioridade de cada letra 
 
 	let order = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	 let count2 = 1 ;
