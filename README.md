@@ -19,7 +19,7 @@ _Você pode usar a linguagem de programação que você quizer.
 Você pode resolver o problema do dia do jeito que você quizer :)_
 _Eu utilizei javaScript + NodeJs_
 
-## ☕ PUZZLES RESOLVIDOS
+## ☕ | PUZZLES RESOLVIDOS
 
 DAY 1 Clique [AQUI](https://github.com/diego-maker/AoC-puzzle/blob/main/src/index.js).<br>
 DAY 2 part1. Clique [AQUI](https://github.com/diego-maker/AoC-puzzle/blob/main/src/day2_part1.js).<br>
