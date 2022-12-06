@@ -30,3 +30,5 @@ DAY 4 part 1 and 2 . Clique [AQUI](https://github.com/diego-maker/AoC-puzzle/blo
 
 
 utilizei a lib <a href="https://www.npmjs.com/package/fs-js">FS</a> para ler o arquivo com os dados fixos e manipular eles dentro do meu código.
+
+## | [top](#travel--places) | :building_construction: | `:building_construction:` | :bricks: | `:bricks:` | [top](#table-of-contents) | PUZZLES EM ANDAMENTO
