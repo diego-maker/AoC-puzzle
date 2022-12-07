@@ -21,7 +21,7 @@ fs.readFile('./src/file/day5.txt','utf8', function(err,data){
     ]
     // let boxes = 
     // [
-    //   ['z', 'n'],
+    //   ['n', 'n'],
     //   ['m', 'c', 'd'],
     //   ['p'],
     // ]
@@ -64,7 +64,7 @@ fs.readFile('./src/file/day5.txt','utf8', function(err,data){
  
   }
   console.log(`
-  ${boxes[0][0]}${boxes[1][0]}${boxes[2][0]}${boxes[3][0]}${boxes[4][0]}${boxes[5][0]}${boxes[6][0]}${boxes[7][0]}
+  ${boxes[0][0]}${boxes[1][0]}${boxes[2][0]}${boxes[3][0]}${boxes[4][0]}${boxes[5][0]}${boxes[6][0]}${boxes[7][0]}${boxes[8][0]}
   posição 1:${boxes[0][0]} 
   posição 2:${boxes[1][0]} 
   posição 3:${boxes[2][0]} 
