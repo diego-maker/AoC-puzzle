@@ -19,6 +19,12 @@ fs.readFile('./src/file/day5.txt','utf8', function(err,data){
       ['S','W','V','Q'],
       ['C','N','D','T','M','L','H','W']
     ]
+    // let boxes = 
+    // [
+    //   ['z', 'n'],
+    //   ['m', 'c', 'd'],
+    //   ['p'],
+    // ]
    
   for (let index = 0; index < dataLog.length; index++) {
     
@@ -33,20 +39,42 @@ fs.readFile('./src/file/day5.txt','utf8', function(err,data){
     let to = dataLog[index].substring(ind2,dataLog[index].length)
 
     move = parseInt(move);
-    from = parseInt(from);
-    to = parseInt(to);
+    from =   parseInt(from)- 1;
+    to =  parseInt(to) - 1 ;
     
-    if(from == 9){
-      from = 8;
+ 
+ var fixBox = []
+    for (let ind2 = 0; ind2 < move; ind2++) {
+      
+      fixBox[ind2] = boxes[from][ind2]
     }
-    if(from == 1){
-      from == 0
+    
+    let moving = move
+
+    fixBox = fixBox.reverse()
+    
+    for (let ind2 = 0; ind2 < boxes[to].length; ind2++, moving++) {
+      
+      fixBox[moving] = boxes[to][ind2]
+      
     }
 
-    console.log(boxes[8])
-   
+    boxes[to] = fixBox
+    boxes[from]= boxes[from].slice(move) 
+
+ 
   }
-   
+  console.log(boxes[0][0])
+  console.log(boxes[1][0])
+  console.log(boxes[2][0])
+  console.log(boxes[3][0])
+  console.log(boxes[4][0])
+  console.log(boxes[5][0])
+  console.log(boxes[6][0])
+  console.log(boxes[7][0])
+  console.log(boxes[8][0])
+
+
   })
 
 
@@ -54,3 +82,6 @@ fs.readFile('./src/file/day5.txt','utf8', function(err,data){
  
   
  })
+
+
+ 
