@@ -33,4 +33,4 @@ _Eu utilizei javaScript + NodeJs_
 utilizei a lib <a href="https://www.npmjs.com/package/fs-js">FS</a> para ler o arquivo com os dados fixos e manipular eles dentro do meu código.
 
 ## :building_construction: | PUZZLES EM ANDAMENTO
-* DAY 5. Clique [AQUI](https://github.com/diego-maker/AoC-puzzle/blob/main/src/day5.js).<br>
+* DAY 5 part 2. Clique [AQUI](https://github.com/diego-maker/AoC-puzzle/blob/main/src/day5_part2.js).<br>
