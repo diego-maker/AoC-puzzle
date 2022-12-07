@@ -7,14 +7,14 @@ fs.readFile('./src/file/day6.txt','utf8', function(err,data){
 	rows.map(x=>{
  
     let source = x.replaceAll('"',"")
-    console.log(source.length) //posição retornada
-    let init = 4 ;
+    // console.log(source.length) //posição retornada
+    let init = 14 ;
 
     for (let index = 0; index < source.length; index++,init++) {
       
       let pocket =source.substring(index, init); 
       
-      if(pocket.length == 4){  
+      if(pocket.length == 14){  
 
           let letter1 = pocket.substring(0,1)
           let letter2 = pocket.substring(1,2)
