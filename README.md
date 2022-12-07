@@ -21,16 +21,16 @@ _Eu utilizei javaScript + NodeJs_
 
 ## ☕ | PUZZLES RESOLVIDOS
 
-* DAY 1 Clique [AQUI](https://github.com/diego-maker/AoC-puzzle/blob/main/src/index.js).<br>
+* DAY 1 Clique [AQUI](https://github.com/diego-maker/AoC-puzzle/blob/main/src/day1.js).<br>
 * DAY 2 part1. Clique [AQUI](https://github.com/diego-maker/AoC-puzzle/blob/main/src/day2_part1.js).<br>
 * DAY 2 part2. Clique [AQUI](https://github.com/diego-maker/AoC-puzzle/blob/main/src/day2_part2.js).<br>
 * DAY 3 part1. Clique [AQUI](https://github.com/diego-maker/AoC-puzzle/blob/main/src/day3_part1.js).<br>
 * DAY 3 part. Clique [AQUI](https://github.com/diego-maker/AoC-puzzle/blob/main/src/day3_part2.js).<br>
 * DAY 4 part 1 and 2 . Clique [AQUI](https://github.com/diego-maker/AoC-puzzle/blob/main/src/day4.js).<br>
-* DAY 5 part 1 . Clique [AQUI](https://github.com/diego-maker/AoC-puzzle/blob/main/src/day5.js).<br>
+* DAY 5 part 1 . Clique [AQUI](https://github.com/diego-maker/AoC-puzzle/blob/main/src/day5_part1.js).<br>
 
 
 utilizei a lib <a href="https://www.npmjs.com/package/fs-js">FS</a> para ler o arquivo com os dados fixos e manipular eles dentro do meu código.
 
 ## :building_construction: | PUZZLES EM ANDAMENTO
-* DAY 5. Clique [AQUI](https://github.com/diego-maker/AoC-puzzle/blob/main/src/day5.js).<br>
+* DAY 5 part 2. Clique [AQUI](https://github.com/diego-maker/AoC-puzzle/blob/main/src/day5_part2.js).<br>
