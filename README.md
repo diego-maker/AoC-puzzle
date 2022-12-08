@@ -30,9 +30,12 @@ _Eu utilizei javaScript + NodeJs_
 * DAY 5 part 1 . Clique [AQUI](https://github.com/diego-maker/AoC-puzzle/blob/main/src/day5_part1.js).<br>
 * DAY 5 part 2 . Clique [AQUI](https://github.com/diego-maker/AoC-puzzle/blob/main/src/day5_part2.js).<br>
 * DAY 6 part 1 . Clique [AQUI](https://github.com/diego-maker/AoC-puzzle/blob/main/src/day6_part1.js).<br>
+* DAY 6 part 1 . Clique [AQUI](https://github.com/diego-maker/AoC-puzzle/blob/main/src/day6_part1.js).<br>
+
+
 
 
 utilizei a lib <a href="https://www.npmjs.com/package/fs-js">FS</a> para ler o arquivo com os dados fixos e manipular eles dentro do meu código.
 
 ## :building_construction: | PUZZLE EM ANDAMENTO
-* DAY 6 part2 . Clique [AQUI](https://github.com/diego-maker/AoC-puzzle/blob/main/src/day6_part2.js).<br>
+* DAY 6 part2 . Clique [AQUI](https://github.com/diego-maker/AoC-puzzle/blob/main/src/day7.js).<br>
