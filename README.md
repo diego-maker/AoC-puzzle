@@ -31,7 +31,7 @@ _Eu utilizei javaScript + NodeJs_
 * DAY 5 part 2 . Clique [AQUI](https://github.com/diego-maker/AoC-puzzle/blob/main/src/day5_part2.js).<br>
 * DAY 6 part 1 . Clique [AQUI](https://github.com/diego-maker/AoC-puzzle/blob/main/src/day6_part1.js).<br>
 * DAY 6 part 1 . Clique [AQUI](https://github.com/diego-maker/AoC-puzzle/blob/main/src/day6_part1.js).<br>
-* DAY 8 part 1 e 2 . Clique [AQUI](https://github.com/diego-maker/AoC-puzzle/blob/main/src/day7.js).<br>
+* DAY 7 part 1 e 2 . Clique [AQUI](https://github.com/diego-maker/AoC-puzzle/blob/main/src/day7.js).<br>
 
 
 
